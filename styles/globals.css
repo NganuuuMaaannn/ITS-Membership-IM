@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.addUpdate-button {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  padding: 5px 10px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.edit-button {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  padding: 5px 10px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.delete-button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+@keyframes bounce-left {
+  0% {
+    transform: translateX(50px); /* Start position off-screen to the right */
+  }
+  50% {
+    transform: translateX(-10px); /* Move slightly to the left */
+  }
+  100% {
+    transform: translateX(0); /* Final position at the original place */
+  }
+}
+
+@keyframes bounce-left2 {
+  0% {
+    transform: translateX(0px); /* Start position off-screen to the right */
+  }
+  50% {
+    transform: translateX(3px); /* Move slightly to the left */
+  }
+  100% {
+    transform: translateX(0); /* Final position at the original place */
+  }
+}
+
+.bounce-left2 {
+  animation: bounce-left2 1s infinite; /* Infinite loop with a 1-second duration */
+}
+
+
